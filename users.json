@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "username": "김수한무",
+    "email": "kshm@naver.com",
+    "password": "$2a$10$5elBb1FRX/1XClfmv0/J4ex6EoikhFWtSaXxkfX994GEEXqmWs8Wu"
+  },
+  {
+    "id": 2,
+    "username": "치치카포",
+    "email": "cckp@naver.com",
+    "password": "$2a$10$3QPcGGiyYP.xoe1dvYOZLecW8NkBN6A7W6e3iAZ6XHZd0KQd.wpee"
+  }
+]
