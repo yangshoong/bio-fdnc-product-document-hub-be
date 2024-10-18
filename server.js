@@ -26,6 +26,10 @@ mongoose.connect(process.env.MONGODB_URI)
 const authRoutes = require('./routes/auth');
 app.use('/api', authRoutes);
 
+// 레코드 라우트 추가
+const recordRoutes = require('./routes/records');
+app.use('/api/records', recordRoutes);
+
 // 헬스 체크 엔드포인트 추가
 app.get('/health', (req, res) => {
   res.status(200).send('OK');
